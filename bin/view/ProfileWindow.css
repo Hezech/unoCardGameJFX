@@ -1,0 +1,53 @@
+#mainPane
+{
+	-fx-background-image: url("./images/gameHistoryBG.png");
+    -fx-background-size: 800px 598px;
+}
+
+#profilePane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#nickname
+{
+	-fx-background-color: white;
+}
+
+#shrikePane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#sharkPane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#kittensPane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#catsPoints
+{
+	-fx-background-color: white;
+}
+
+#sharkPoints
+{
+	-fx-background-color: white;
+}
+
+#shrikePoints
+{
+	-fx-background-color: white;
+}

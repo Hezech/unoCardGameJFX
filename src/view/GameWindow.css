@@ -1,0 +1,34 @@
+#mainPane
+{
+	-fx-background-image: url("../otherImages/table.png");
+	-fx-background-size: cover;
+    -fx-background-position: center; 
+}
+
+#kittensPane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#sharkPane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#shrikePane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
+
+#humanPic
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}

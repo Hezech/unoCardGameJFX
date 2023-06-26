@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" stylesheets="@GameWindow.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="66.0" layoutX="463.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../otherImages/unoCardBack.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="sharkHandLabel" layoutX="476.0" layoutY="157.0" text="Label" />
+            <Label fx:id="orderLabel" layoutX="24.0" layoutY="18.0" text="Label" />
+            <Label fx:id="turnLabel" layoutX="24.0" layoutY="84.0" text="Label" />
+            <AnchorPane fx:id="sharkPane" layoutX="378.0" layoutY="65.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="72.0">
+               <children>
+                  <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Shark.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label layoutX="392.0" layoutY="44.0" text="Shark">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="colorLabel" layoutX="710.0" layoutY="18.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="66.0" layoutX="111.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../otherImages/unoCardBack.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="kittensHandLabel" layoutX="124.0" layoutY="215.0" text="Label" />
+            <AnchorPane fx:id="kittensPane" layoutX="17.0" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="69.0" prefWidth="82.0">
+               <children>
+                  <ImageView fx:id="catImage" fitHeight="67.0" fitWidth="70.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                  	<image>
+                        <Image url="@images/TheCats.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label layoutX="32.0" layoutY="111.0" text="Kittens">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="66.0" layoutX="23.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../otherImages/unoCardBack.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="shrikeHandLabel" layoutX="36.0" layoutY="213.0" text="Label" />
+            <Label layoutX="109.0" layoutY="101.0" text="Shrike">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="shrikePane" layoutX="100.0" layoutY="120.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="65.0">
+               <children>
+                  <ImageView fx:id="shrikePic" fitHeight="62.0" fitWidth="53.0" layoutX="7.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Shrike.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </right>
+   <bottom>
+      <AnchorPane fx:id="playerPane" prefHeight="230.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <ButtonBar fx:id="buttonBar2" buttonMinWidth="40.0" layoutX="111.0" layoutY="109.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="734.0">
+               <buttons>
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+               </buttons>
+            </ButtonBar>
+            <ButtonBar fx:id="buttonBar1" buttonMinWidth="40.0" layoutX="111.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="734.0">
+               <buttons>
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+                  <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playCard" prefHeight="100.0" prefWidth="60.0" text="Button" />
+               </buttons>
+            </ButtonBar>
+            <Button fx:id="unoButton" layoutX="14.0" layoutY="120.0" mnemonicParsing="false" onAction="#sayUNO" prefHeight="98.0" prefWidth="111.0" text="UNO!">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="drawButton" layoutX="874.0" layoutY="119.0" mnemonicParsing="false" onAction="#drawCard" prefHeight="98.0" prefWidth="111.0" text="DRAW" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <StackPane fx:id="humanPic" layoutX="14.0" layoutY="21.0" prefHeight="87.0" prefWidth="112.0" />
+            <Label fx:id="playerNameL" layoutX="14.0" text="Label" />
+            <Button fx:id="passButton" layoutX="874.0" layoutY="10.0" mnemonicParsing="false" onAction="#passTurn" prefHeight="98.0" prefWidth="111.0" text="PASS" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane onMouseClicked="#drawCard" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="66.0" layoutX="203.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../otherImages/unoCardBack.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="deckSizeLabel" layoutX="216.0" layoutY="229.0" text="Label" />
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="264.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane layoutX="283.0" layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="66.0">
+               <children>
+                  <ImageView fx:id="discardPile" fitHeight="98.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="false" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

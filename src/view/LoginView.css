@@ -1,0 +1,13 @@
+#mainPane
+{
+	-fx-background-image: url("./images/unoBackground.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;   
+}
+
+#profilePane
+{
+	-fx-border-color: brown;
+    -fx-border-style: solid;
+    -fx-border-width: 7;
+}
